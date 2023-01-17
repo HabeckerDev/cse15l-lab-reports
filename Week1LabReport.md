@@ -25,6 +25,9 @@ Your terminal should look like this:
 
 ![image](https://user-images.githubusercontent.com/22578356/212203631-73fa352f-bdc4-4af0-baa2-8bd94ced8903.png)
 
+A successful login should look as follows:
+
+
 
 
 ## Trying some commands
