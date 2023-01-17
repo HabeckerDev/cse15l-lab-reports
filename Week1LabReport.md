@@ -14,6 +14,7 @@ the website.
 ## SSH connections
 In this section we are going to connect to a remote server using the GitBash terminal on VScode.
 1. So open up VScode and create a new terminal window.
+
 ![image](https://user-images.githubusercontent.com/22578356/212202880-3064248d-9b23-4951-9643-01f4514abec2.png)
 
 ![image](https://user-images.githubusercontent.com/22578356/212202958-1a6e5181-3f38-4645-b76a-6a921992b199.png)
@@ -32,4 +33,12 @@ A successful login should look as follows:
 
 
 ## Trying some commands
+
+Here is a list of useful commands that you can run on the remote server:
+1. pwd - print working directory
+2. cd - change directory
+3. ls <path> - list files and folders in path
+4. cd ~ - change to parent directory
+  
+Try to look at another students directory as well as explore your own.
 
