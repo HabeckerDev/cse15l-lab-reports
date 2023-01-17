@@ -27,6 +27,7 @@ Your terminal should look like this:
 
 A successful login should look as follows:
 
+<img width="717" alt="Screen Shot 2023-01-16 at 4 33 15 PM" src="https://user-images.githubusercontent.com/22578356/212785169-9ae600ff-9571-478a-a9ca-145afa3ac4d9.png">
 
 
 
