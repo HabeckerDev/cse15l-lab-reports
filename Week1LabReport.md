@@ -39,7 +39,10 @@ Here is a list of useful commands that you can run on the remote server:
 1. `pwd` - print working directory
 2. `cd` - change directory
 3. `ls` <path> - list files and folders in path
-4. `cd` ~ - change to parent directory
+4. `cd ~` - change to parent directory
+
+
   
 Try to look at another students directory as well as explore your own.
+  
 
