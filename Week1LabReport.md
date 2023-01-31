@@ -22,7 +22,8 @@ In this section we are going to connect to a remote server using the GitBash ter
 Your terminal should look like this:
 ![image](https://user-images.githubusercontent.com/22578356/212203094-a287eb5d-4087-4882-8fba-2570b08c761b.png)
 
-2. Next enter the following 'ssh' command. Replace "abc" with your unique 3 characters.
+2. Next enter the following `ssh` command. Replace "abc" with your unique 3 characters from the end of your course account.  
+For example: The account: `cs15lwi23abs`. `cs15lwi23` is the first part of the account and `abc` are the last three characters that will be unique to you. 
 
 ![image](https://user-images.githubusercontent.com/22578356/212203631-73fa352f-bdc4-4af0-baa2-8bd94ced8903.png)
 
@@ -35,10 +36,10 @@ A successful login should look as follows:
 ## Trying some commands
 
 Here is a list of useful commands that you can run on the remote server:
-1. pwd - print working directory
-2. cd - change directory
-3. ls <path> - list files and folders in path
-4. cd ~ - change to parent directory
+1. `pwd` - print working directory
+2. `cd` - change directory
+3. `ls` <path> - list files and folders in path
+4. `cd` ~ - change to parent directory
   
 Try to look at another students directory as well as explore your own.
 
