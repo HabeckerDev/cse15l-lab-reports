@@ -41,7 +41,7 @@ Here is a list of useful commands that you can run on the remote server:
 3. `ls` <path> - list files and folders in path
 4. `cd ~` - change to parent directory
 
-
+<img width="884" alt="Screen Shot 2023-01-30 at 8 01 19 PM" src="https://user-images.githubusercontent.com/22578356/215660066-c30dc292-59a7-4b9c-92ef-45de9f55d686.png">
   
 Try to look at another students directory as well as explore your own.
   
