@@ -42,7 +42,11 @@ Here is a list of useful commands that you can run on the remote server:
 4. `cd ~` - change to parent directory
 
 <img width="884" alt="Screen Shot 2023-01-30 at 8 01 19 PM" src="https://user-images.githubusercontent.com/22578356/215660066-c30dc292-59a7-4b9c-92ef-45de9f55d686.png">
-  
+
+You'll notice that using `cd ~` didn't change my directory because I was already in the parent directory.  
+It's also interesting to point out that the `cd` command doesn't show you what directory you're in. You will need to use `pwd` to check that you're in 
+the correct directory after each change.
+
 Try to look at another students directory as well as explore your own.
   
 
