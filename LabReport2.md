@@ -57,11 +57,13 @@ class StringServer {
 
 ```
 Here is a screenshot of inpututing 3 separate strings in the URL.
+
 <img width="585" alt="Screen Shot 2023-02-13 at 10 24 38 PM" src="https://user-images.githubusercontent.com/22578356/218656577-75da5537-8d45-4634-95fd-4f0686d87604.png">
 
 
 And this is the continuation.
-<img width="620" alt="Screen Shot 2023-02-13 at 10 25 31 PM" src="https://user-images.githubusercontent.com/22578356/218656594-153400ea-3693-4e2a-9690-85202edc5f62.png">
+
+<img width="585" alt="Screen Shot 2023-02-13 at 10 25 31 PM" src="https://user-images.githubusercontent.com/22578356/218656594-153400ea-3693-4e2a-9690-85202edc5f62.png">
 
 To run the server you have to specify a port number like so:
 `java StringServer 4500`
