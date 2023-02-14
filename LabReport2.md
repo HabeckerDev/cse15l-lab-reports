@@ -74,4 +74,67 @@ Our web server works by reading the string entered after `/add-message?s=` in th
 The strings are stored in an ArrayList and when the webpage is called again it displays every string in the ArrayList separated by a new line.
 This is all done by the Handler class.
 
+## Lab 3 Bugs
+
+Testing the `ReverseInPlace` method:
+
+```
+
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+
+    int[] input2 = new int[]{1,2,3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3,2,1}, input2); 
+    
+	}
+
+```
+The JUnit test failed with the following information:
+`There was 1 failure:`
+`1) testReverseInPlace(ArrayTests)
+arrays first differed at element [2]; expected:<1> but was:<3>`
+
+The input `{3}` passed while the input `{3,2,1}` failed.
+
+Here is a screenshot of the JUnit test running:
+
+<img width="1440" alt="Screen Shot 2023-02-13 at 11 16 35 PM" src="https://user-images.githubusercontent.com/22578356/218665905-eb2bdb3a-9143-4637-bb19-eccf0e7cdef1.png">
+
+Here is the buggy code:
+
+```
+// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  
+```
+
+And here is the fixed code:
+
+```
+
+ static void reverseInPlace(int[] arr) {
+    int[] temp = new int[arr.length];
+      for(int i = 0; i < arr.length; i++){
+        temp[i] = arr[i];
+      }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = temp[temp.length - i - 1];
+    }
+  }
+  
+```
+
+The fixed code copies the original array into a temporary array of the same size. 
+Then the second for loop copies the temporary array back into the original array in reverse order. 
+This allows us to reverse the array while maintaining every value in the original array.
+
+
 
