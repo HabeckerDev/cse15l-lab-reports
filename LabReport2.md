@@ -137,4 +137,9 @@ Then the second for loop copies the temporary array back into the original array
 This allows us to reverse the array while maintaining every value in the original array.
 
 
+## What I learned
 
+My biggest accomplishment for the last 2 labs has been making a working webserver. 
+While I've written plenty of code that manipulates strings and other objects, I have never created a way for others to use it outside of the terminal.
+I also learned how to use JUnit more efficiently when writing test for my code.
+This will come in handy while I work on my CSE12 PAs.
