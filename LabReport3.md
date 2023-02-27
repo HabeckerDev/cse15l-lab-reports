@@ -28,3 +28,18 @@ Here is another example searching the file `skill-demo1-data/written_2/non-ficti
 
 <img width="1792" alt="Screen Shot 2023-02-26 at 9 26 31 PM" src="https://user-images.githubusercontent.com/22578356/221481686-23617f10-3535-4f59-9dea-dda2b1ac543e.png">
 
+If we know the line number of file that contains the information we want we can use the `Ng` command:
+First we'll search the file `skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt` for the 100th line:
+
+<img width="1792" alt="Screen Shot 2023-02-26 at 9 30 40 PM" src="https://user-images.githubusercontent.com/22578356/221482220-7f33b78f-e1e2-44f8-ab2b-fc345ab3eeb7.png">
+
+And here we are searching for the 75th line of `skill-demo1-data/written_2/non-fiction/OUP/Castro/chA.txt`:
+
+<img width="1792" alt="Screen Shot 2023-02-26 at 9 31 16 PM" src="https://user-images.githubusercontent.com/22578356/221482306-adfac5a3-a250-450a-881c-ca27deadfa28.png">
+
+
+
+
+
+
+
