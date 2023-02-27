@@ -22,3 +22,9 @@ Here is the result when searching by `/children`:
 
 <img width="1792" alt="Screen Shot 2023-02-26 at 9 22 04 PM" src="https://user-images.githubusercontent.com/22578356/221480992-81087a8f-32c1-41bf-94d7-24635414e042.png">
 
+The pattern that we searched for is now highlited in the terminal allowing us to locate specific strings more easily.
+
+Here is another example searching the file `skill-demo1-data/written_2/non-fiction/OUP/Castro/chA.txt` for `/Mexican`:
+
+<img width="1792" alt="Screen Shot 2023-02-26 at 9 26 31 PM" src="https://user-images.githubusercontent.com/22578356/221481686-23617f10-3535-4f59-9dea-dda2b1ac543e.png">
+
