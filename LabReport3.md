@@ -37,6 +37,10 @@ And here we are searching for the 75th line of `skill-demo1-data/written_2/non-f
 
 <img width="1792" alt="Screen Shot 2023-02-26 at 9 31 16 PM" src="https://user-images.githubusercontent.com/22578356/221482306-adfac5a3-a250-450a-881c-ca27deadfa28.png">
 
+The less command can also be piped to making it easier to navigate other commands such as the `ls` command.
+Let's try `ls -l | less`:
+
+<img width="600" alt="Screen Shot 2023-02-27 at 9 49 25 PM" src="https://user-images.githubusercontent.com/22578356/221765641-2fcabf4b-b6ee-44a0-85ae-2b9922eb61f8.png">
 
 
 
