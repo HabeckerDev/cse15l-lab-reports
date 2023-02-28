@@ -15,6 +15,8 @@ To make our life easier we'll use the `-N` option to add line numbers to the out
 
 ## `less` Commands
 
+### `/pattern` command
+
 While both `less` and `cat` display the contents of a file, `less` allows us to search through the file contents using different commands.
 The first command we will use is `/pattern`.
 
@@ -28,6 +30,8 @@ Here is another example searching the file `skill-demo1-data/written_2/non-ficti
 
 <img width="1792" alt="Screen Shot 2023-02-26 at 9 26 31 PM" src="https://user-images.githubusercontent.com/22578356/221481686-23617f10-3535-4f59-9dea-dda2b1ac543e.png">
 
+### `Ng` Command
+
 If we know the line number of file that contains the information we want we can use the `Ng` command:
 First we'll search the file `skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt` for the 100th line:
 
@@ -36,6 +40,8 @@ First we'll search the file `skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1
 And here we are searching for the 75th line of `skill-demo1-data/written_2/non-fiction/OUP/Castro/chA.txt`:
 
 <img width="1792" alt="Screen Shot 2023-02-26 at 9 31 16 PM" src="https://user-images.githubusercontent.com/22578356/221482306-adfac5a3-a250-450a-881c-ca27deadfa28.png">
+
+### Piping to `less`
 
 The less command can also be piped to making it easier to navigate other commands such as the `ls` command.
 Let's try `ls -l | less`:
