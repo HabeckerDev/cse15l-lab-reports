@@ -79,14 +79,17 @@ Here are my prompts and answers from ChatGPT
 
 Prompt: "how do you use the mark feature of the less command in linux"
 Response: 
+
 <img width="576" alt="Screen Shot 2023-02-27 at 10 11 55 PM" src="https://user-images.githubusercontent.com/22578356/221769494-7a9d05bc-6239-4879-927e-f5e684da775b.png">
 
 Prompt: "what else can the less command do?"
 Response:
+
 <img width="584" alt="Screen Shot 2023-02-27 at 10 12 33 PM" src="https://user-images.githubusercontent.com/22578356/221769517-768d7233-c500-4aa8-bb3e-d826088301d4.png">
 
 Prompt: "how to find all txt files in a directory"
 Response: 
+
 <img width="586" alt="Screen Shot 2023-02-27 at 10 12 52 PM" src="https://user-images.githubusercontent.com/22578356/221769530-e54fe55c-a5f8-4951-b01d-1fd6a81cd4b3.png">
 
 For each of ChatGPT's responses I took the code example it gave and used that as a foundation to write my commands in terminal. 
