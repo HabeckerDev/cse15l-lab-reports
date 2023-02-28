@@ -42,6 +42,11 @@ Let's try `ls -l | less`:
 
 <img width="600" alt="Screen Shot 2023-02-27 at 9 49 25 PM" src="https://user-images.githubusercontent.com/22578356/221765641-2fcabf4b-b6ee-44a0-85ae-2b9922eb61f8.png">
 
+Here we can see the output of the `ls` command from our home directory. With large directories this could be a very useful tool.
+Now we will pipe a list of all `.txt` files in our directories to less using `find . -name *.txt | less`:
+
+<img width="561" alt="Screen Shot 2023-02-27 at 9 52 58 PM" src="https://user-images.githubusercontent.com/22578356/221766421-e2651f42-0e1f-4b8c-9be9-31e402a02622.png">
+
 
 
 
