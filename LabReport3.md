@@ -53,8 +53,42 @@ Now we will pipe a list of all `.txt` files in our directories to less using `fi
 
 <img width="561" alt="Screen Shot 2023-02-27 at 9 52 58 PM" src="https://user-images.githubusercontent.com/22578356/221766421-e2651f42-0e1f-4b8c-9be9-31e402a02622.png">
 
+Using the commands we learned about earlier we'll have an easier time navigating through this long list of `.txt` files.
 
+### `less -X` Command
 
+Say we want to view the contents of a file but don't want to keep opening and closing it everytime we need to take a look. 
+Luckily for us `less` has an option we can use to keep the contents of the file on the screen after we exit `less`. 
 
+Here we'll use `ls -l | less -X` to display the current home directory on the ternimal:
+
+<img width="673" alt="Screen Shot 2023-02-27 at 9 59 35 PM" src="https://user-images.githubusercontent.com/22578356/221767991-f920e42d-9980-4792-854f-2d73c3ee1fed.png">
+
+This is handy if we need to constantly know this information.
+
+We can also add the `-N` option to add numberlines to our terminal output. `find . -name *.txt | less -X -N`:
+
+<img width="516" alt="Screen Shot 2023-02-27 at 10 01 00 PM" src="https://user-images.githubusercontent.com/22578356/221768197-ac0dd164-671f-4448-9982-ff17d06f19fb.png">
+
+### Sources
+
+I used the `man less` command to view all of the options and commands associated with `less`. 
+I also utilized ChatGPT to give me a description and use cases for the `less` command.
+
+Here are my prompts and answers from ChatGPT
+
+Prompt: "how do you use the mark feature of the less command in linux"
+Response: 
+<img width="576" alt="Screen Shot 2023-02-27 at 10 11 55 PM" src="https://user-images.githubusercontent.com/22578356/221769494-7a9d05bc-6239-4879-927e-f5e684da775b.png">
+
+Prompt: "what else can the less command do?"
+Response:
+<img width="584" alt="Screen Shot 2023-02-27 at 10 12 33 PM" src="https://user-images.githubusercontent.com/22578356/221769517-768d7233-c500-4aa8-bb3e-d826088301d4.png">
+
+Prompt: "how to find all txt files in a directory"
+Response: 
+<img width="586" alt="Screen Shot 2023-02-27 at 10 12 52 PM" src="https://user-images.githubusercontent.com/22578356/221769530-e54fe55c-a5f8-4951-b01d-1fd6a81cd4b3.png">
+
+For each of ChatGPT's responses I took the code example it gave and used that as a foundation to write my commands in terminal. 
 
 
